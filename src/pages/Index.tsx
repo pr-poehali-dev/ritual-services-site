@@ -120,7 +120,7 @@ export default function Index() {
                 <CardHeader className="pb-4">
                   <div className="aspect-[4/3] bg-gray-100 rounded-md mb-4 overflow-hidden group-hover:bg-gray-50 transition-colors">
                     <img 
-                      src={monument.id === 1 ? "/img/2e21d17b-72cd-4d6e-aa95-bee4cb49ff3f.jpg" : 
+                      src={monument.id === 1 ? "https://cdn.poehali.dev/files/f04a79e8-6a03-4c9b-a06a-8b0b1eaee9d6.png" : 
                            monument.id === 2 ? "/img/d6947168-f046-46b6-b32e-56f32cc08720.jpg" : 
                            "/img/bc7b5d2e-37d3-4edb-aad7-9953115d8f4d.jpg"} 
                       alt={monument.title}
